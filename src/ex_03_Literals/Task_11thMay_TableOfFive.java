@@ -8,9 +8,9 @@ package ex_03_Literals;
 public class Task_11thMay_TableOfFive  {
     public static void main(String[] args) {
         int num =5; // The number for which we want the table
-        System.out.printf("%d * 1 = %d%n", num, num*1);
+        System.out.printf("%d * 1 = %d\n", num, num*1);
         System.out.printf("%d * 2 = %d%n", num, num*2);
-        System.out.printf("%d * 3 = %d%n", num, num*3);
+        System.out.printf("%d * 3 = %d", num, num*3).println();
         System.out.printf("%d * 4 = %d%n", num, num*4);
         System.out.printf("%d * 5 = %d%n", num, num*5);
         System.out.printf("%d * 6 = %d%n", num, num*6);
