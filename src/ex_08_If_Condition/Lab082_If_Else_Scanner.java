@@ -3,7 +3,7 @@ package ex_08_If_Condition;
 import java.util.Scanner;
 
 public class Lab082_If_Else_Scanner {
-    public static void main(String[] args) {32
+    public static void main(String[] args) {
 
         // Allowed to vote or not - age
         // If age > 18 -> allowed to vote.
