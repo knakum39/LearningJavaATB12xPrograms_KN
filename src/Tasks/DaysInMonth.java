@@ -42,6 +42,9 @@ public class DaysInMonth {
             case 2:
                 days = isLeapYear ? 29: 28;
                 break;
+            default:
+                System.out.println("You have entered invalid data");
+                break;
 }
         System.out.printf("Month %d in year %d has %d days.%n", month, year, days);
     }
