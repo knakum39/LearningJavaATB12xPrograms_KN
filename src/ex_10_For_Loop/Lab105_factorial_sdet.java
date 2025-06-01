@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class factorial_sdet {
+public class Lab105_factorial_sdet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
