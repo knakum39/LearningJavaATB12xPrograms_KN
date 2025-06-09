@@ -2,7 +2,7 @@ package ex_16_Arrays;
 
 public class SecondHighestFinder {
     public static void main(String[] args) {
-        int[] numbers = {12, 34, 10, 1, 100, 3, 4, 102};
+        int[] numbers = {12, 34, 10, 1, 100, 100, 84, 102};
         int highest = 0;
         int secondHighest = 0;
 
