@@ -37,7 +37,7 @@ public class TableOfFive {
     Defines a public class named TableOfFive.
     The filename must match this class name (TableOfFive.java).
 
-            2. Main Method (Entry Point)
+            2. Tasks.june08_covering_all_OOPS_concepts.ex01.Main Method (Entry Point)
 
     public static void main(String[] args) {
         The main method is where the program starts executing.
