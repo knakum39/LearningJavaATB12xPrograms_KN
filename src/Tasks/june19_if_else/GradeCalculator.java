@@ -6,15 +6,15 @@ public class GradeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 1️⃣ Take user input
+        // 1. Take user input
         System.out.print("Enter your marks (0 - 100): ");
         int marks = scanner.nextInt();
 
-        // 2️⃣ Check for valid input
+        // 2. Check for valid input
         if (marks < 0 || marks > 100) {
             System.out.println("Invalid marks! Please enter a value between 0 and 100.");
         } else {
-            // 3️⃣ Check grading conditions
+            // 3. Check grading conditions
             if (marks >= 90) {
                 System.out.println("Grade: A+");
             } else if (marks >= 80) {
