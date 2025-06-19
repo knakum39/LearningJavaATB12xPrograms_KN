@@ -11,7 +11,7 @@ public class MaxOfTwo {
         int number1 = scanner.nextInt();
 
         // Prompt user to enter a second integer
-        System.out.println("Enter the First number:");
+        System.out.println("Enter the second number:");
         int number2 = scanner.nextInt();
 
         // Find the maximum using if-else
