@@ -1,6 +1,6 @@
 package JavaProgrammingAssessment_Coding_challenges;
 
-public class C1_VariableDemo {
+public class VariableDeclarationInitialization {
     public static void main(String[] args) {
 
         // Integer variable

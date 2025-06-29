@@ -3,17 +3,20 @@ package JavaProgrammingAssessment_Coding_challenges;
 public class OperatorDemo {
     public static void main(String[] args) {
 
-        // Initial variable declarations
-        int a = 20;
-        int b = 5;
+        int num1 = 10;
+        int num2 = 5;
 
-        // Arithmetic operations
-        System.out.println("Arithmetic Operators:");
-        System.out.println("a+b=" + (a+b));// Addition
-        System.out.println("a - b = " + (a - b));  // Subtraction
-        System.out.println("a * b = " + (a * b));  // Multiplication
-        System.out.println("a / b = " + (a / b));  // Division
-        System.out.println("a % b = " + (a % b));  // Modulus
+        int addition = num1 + num2;
+        int subtraction = num1 - num2;
+        int multiplication = num1 * num2;
+        int division = num1 / num2;
+        int modulus = num1 % num2;
+
+        System.out.println("Addition: " + addition);
+        System.out.println("Subtraction: " + subtraction);
+        System.out.println("Multiplication: " + multiplication);
+        System.out.println("Division: " + division);
+        System.out.println("Modulus: " + modulus);
 
         // Assignment operations
         int x = 10;

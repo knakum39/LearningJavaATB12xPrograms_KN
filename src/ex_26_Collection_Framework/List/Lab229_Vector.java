@@ -1,4 +1,4 @@
-package ex_26_Collection_Framework;
+package ex_26_Collection_Framework.List;
 
 import java.util.Vector;
 

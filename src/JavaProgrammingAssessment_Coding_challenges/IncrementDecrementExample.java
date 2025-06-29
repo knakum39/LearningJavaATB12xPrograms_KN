@@ -2,28 +2,21 @@ package JavaProgrammingAssessment_Coding_challenges;
 
 public class IncrementDecrementExample {
     public static void main(String[] args) {
-        int x = 10;
+        int i = 5;
+        System.out.println("Original: " + i);
 
-        System.out.println("Initial value of x: " + x);
+        int r1 = ++i;
+        System.out.println("Pre-increment:" + r1);
 
-        // Pre-Increment
-        System.out.println("\n-- Pre-Increment --");
-        System.out.println("Value returned by ++x: " + (++x));  // x becomes 11, then returns 11
-        System.out.println("Value of x after ++x: " + x);       // 11
+        int r2 = i++;
+        System.out.println("Post-increment:" + r2);
 
-        // Post-Increment
-        System.out.println("\n-- Post-Increment --");
-        System.out.println("Value returned by x++: " + (x++));  // returns 11, then x becomes 12
-        System.out.println("Value of x after x++: " + x);       // 12
+        int r3 = --i;
+        System.out.println("Pre-decrement:" + r3);
 
-        // Pre-Decrement
-        System.out.println("\n-- Pre-Decrement --");
-        System.out.println("Value returned by --x: " + (--x));  // x becomes 11, then returns 11
-        System.out.println("Value of x after --x: " + x);       // 11
+        int r4 = i--;
+        System.out.println("Post-decrement:" + r4);
 
-        // Post-Decrement
-        System.out.println("\n-- Post-Decrement --");
-        System.out.println("Value returned by x--: " + (x--));  // returns 11, then x becomes 10
-        System.out.println("Value of x after x--: " + x);       // 10
+        System.out.println("i:" + i);
     }
 }

@@ -1,6 +1,6 @@
 package JavaProgrammingAssessment_Coding_challenges;
 
-public class ComparisonLogicalDemo {
+public class ComparisonLogicalOperator {
     public static void main(String[] args) {
 
         int a=10;
